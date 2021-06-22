@@ -28,5 +28,5 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send('Pong! Latency: ' + str(bot.latency * 1000) + ' milliseconds.')
 
-
-bot.run('NzQ3MjkyNTMyNTEzMTc3NjMx.X0MwZw.ghswjIqpfHebkgkf5SeVTLEry9Q')
+#Discord bot token will replace the blank string
+bot.run('')
